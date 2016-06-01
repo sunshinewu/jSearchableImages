@@ -1,0 +1,88 @@
+html {
+	height: 100%;}
+
+body {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: #FAF9F9;
+	font-family: Arial, "Microsoft YaHei", "微软雅黑", sans-serif;
+  color: #333333;}
+
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;}
+
+/* Header */
+header {
+	background-color: #00B285;
+	margin: 0 0 40px 0;
+	padding: 50px 0 50px 0;
+	min-height: 50px;
+	text-align: center;}
+
+/* Footer */
+footer {
+	color: white;
+	font-size: 110%;
+	background-color: #00A279;
+	padding: 20px 0 20px 0;
+	text-align: center;}
+
+footer a {
+	color: white;
+	text-decoration:none;}
+
+footer a:hover {
+	color: #FFC926;
+	text-decoration: underline;}
+
+/* Logo */
+h1 {
+  background-image: url('../images/logo.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 10px auto 5px auto;
+  width: 700px;
+  height: 60px;
+  text-align: center;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;}
+
+
+/* search options */
+#search {
+	text-align: center;
+	margin-bottom: 30px;}
+
+
+/* Search input */
+input {
+	font-size: 100%;
+	border: 1px solid #00B285;
+	padding: 5px;
+  width:300px;
+	height:30px;}
+input:hover {
+	border: 1px solid #008A68;}
+input:focus {
+	border: 1px solid #FFC926;
+	outline: none;}
+
+
+/* Gallery of images */
+#gallery {
+	text-align: center;
+	max-width: 1024px;
+	margin: 0 auto;}
+
+#gallery img {
+	width: 244px;
+	height: 259px;
+	border-radius: 15px;
+	border: 8px solid #fff;
+	margin: 10px;
+    -webkit-box-shadow: 0 0 3px 3px #ebebeb;
+    box-shadow: 0 0 3px 3px #ebebeb;}
